@@ -44,7 +44,7 @@ type TreeState struct {
 }
 
 type SubmitProofRequest struct {
-	WalletAddress string `json:"walletAddress"`
+	WalletAddress string `json:" 0x92ACbDf12D1DA8FB80917C5e042343b005d620d6"`
 	Sign          string `json:"sign"`
 	Timestamp     string `json:"timestamp"`
 	Proof         string `json:"proof"`
